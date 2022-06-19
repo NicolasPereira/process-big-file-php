@@ -1,7 +1,8 @@
 ## Big File Challenge
 
 Este desafio foi proposto pelo [Zanfranceschi](https://twitter.com/zanfranceschi/)
-Você pode ver a proposta do desafio [aqui](https://dev.to/zanfranceschi/desafio-processar-arquivos-grandes-com-restricao-de-memoria-2ie3)
+
+Você pode ver a proposta do desafio [aqui](https://dev.to/zanfranceschi/desafio-processar-arquivos-grandes-com-restricao-de-memoria-2ie3) ou então pelo [Twitter](https://twitter.com/zanfranceschi/status/1532505851658784768)
 
 
 Para a implementação da solução utilizei os seguintes conceitos:
@@ -41,3 +42,5 @@ php fibers.php
 
 >Para rodar utilizando Fibers é necessário utilizar o PHP 8.1
 
+## Pontos a melhorar
+Preciso dockerizar o projeto para o docker limitar a memória, para o teste alterei a memória do php no `php.ini`
