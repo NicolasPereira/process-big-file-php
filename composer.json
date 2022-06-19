@@ -1,0 +1,20 @@
+{
+    "name": "nicolaspereira/big-file-php",
+    "description": "Estudos de Fibers e Generators",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nicolas Pereira",
+            "email": "pereira.nicolasrocha@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-json": "*"
+    }
+}
